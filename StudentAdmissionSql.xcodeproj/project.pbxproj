@@ -1,0 +1,390 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5222AC7F2695D41200E27C5A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5222AC7E2695D41200E27C5A /* AppDelegate.swift */; };
+		5222AC812695D41200E27C5A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5222AC802695D41200E27C5A /* SceneDelegate.swift */; };
+		5222AC832695D41200E27C5A /* StudentListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5222AC822695D41200E27C5A /* StudentListVC.swift */; };
+		5222AC862695D41200E27C5A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5222AC842695D41200E27C5A /* Main.storyboard */; };
+		5222AC882695D41E00E27C5A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5222AC872695D41E00E27C5A /* Assets.xcassets */; };
+		5222AC8B2695D41E00E27C5A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5222AC892695D41E00E27C5A /* LaunchScreen.storyboard */; };
+		5222AC942695DD6700E27C5A /* SQLiteHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5222AC932695DD6700E27C5A /* SQLiteHandler.swift */; };
+		5222AC972695EFF500E27C5A /* Student.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5222AC962695EFF500E27C5A /* Student.swift */; };
+		5222AC9C269610E200E27C5A /* extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5222AC9B269610E200E27C5A /* extension.swift */; };
+		5222AC9F269636AA00E27C5A /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5222AC9E269636AA00E27C5A /* MainVC.swift */; };
+		5222ACA22696370700E27C5A /* AdminVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5222ACA12696370700E27C5A /* AdminVC.swift */; };
+		5222ACA5269637A600E27C5A /* StudentVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5222ACA4269637A600E27C5A /* StudentVC.swift */; };
+		5222ACA8269642E900E27C5A /* SQLiteNoticeHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5222ACA7269642E900E27C5A /* SQLiteNoticeHandler.swift */; };
+		5222ACAB269643FA00E27C5A /* Notice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5222ACAA269643FA00E27C5A /* Notice.swift */; };
+		5222ACAE2696461F00E27C5A /* NoticeBoardVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5222ACAD2696461F00E27C5A /* NoticeBoardVC.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5222AC7B2695D41200E27C5A /* StudentAdmissionSql.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StudentAdmissionSql.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5222AC7E2695D41200E27C5A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5222AC802695D41200E27C5A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		5222AC822695D41200E27C5A /* StudentListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentListVC.swift; sourceTree = "<group>"; };
+		5222AC852695D41200E27C5A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5222AC872695D41E00E27C5A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5222AC8A2695D41E00E27C5A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5222AC8C2695D41E00E27C5A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5222AC932695DD6700E27C5A /* SQLiteHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SQLiteHandler.swift; sourceTree = "<group>"; };
+		5222AC962695EFF500E27C5A /* Student.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Student.swift; sourceTree = "<group>"; };
+		5222AC9B269610E200E27C5A /* extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = extension.swift; sourceTree = "<group>"; };
+		5222AC9E269636AA00E27C5A /* MainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
+		5222ACA12696370700E27C5A /* AdminVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdminVC.swift; sourceTree = "<group>"; };
+		5222ACA4269637A600E27C5A /* StudentVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentVC.swift; sourceTree = "<group>"; };
+		5222ACA7269642E900E27C5A /* SQLiteNoticeHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SQLiteNoticeHandler.swift; sourceTree = "<group>"; };
+		5222ACAA269643FA00E27C5A /* Notice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Notice.swift; sourceTree = "<group>"; };
+		5222ACAD2696461F00E27C5A /* NoticeBoardVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoticeBoardVC.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5222AC782695D41200E27C5A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5222AC722695D41200E27C5A = {
+			isa = PBXGroup;
+			children = (
+				5222AC7D2695D41200E27C5A /* StudentAdmissionSql */,
+				5222AC7C2695D41200E27C5A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5222AC7C2695D41200E27C5A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5222AC7B2695D41200E27C5A /* StudentAdmissionSql.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5222AC7D2695D41200E27C5A /* StudentAdmissionSql */ = {
+			isa = PBXGroup;
+			children = (
+				821A2D2B269F0B3600888E4B /* Extras */,
+				5222AC822695D41200E27C5A /* StudentListVC.swift */,
+				5222AC9E269636AA00E27C5A /* MainVC.swift */,
+				5222ACA4269637A600E27C5A /* StudentVC.swift */,
+				5222ACA12696370700E27C5A /* AdminVC.swift */,
+				5222ACAD2696461F00E27C5A /* NoticeBoardVC.swift */,
+				5222AC962695EFF500E27C5A /* Student.swift */,
+				5222AC932695DD6700E27C5A /* SQLiteHandler.swift */,
+				5222ACA7269642E900E27C5A /* SQLiteNoticeHandler.swift */,
+				5222ACAA269643FA00E27C5A /* Notice.swift */,
+				5222AC872695D41E00E27C5A /* Assets.xcassets */,
+				5222AC892695D41E00E27C5A /* LaunchScreen.storyboard */,
+				5222AC842695D41200E27C5A /* Main.storyboard */,
+				5222AC8C2695D41E00E27C5A /* Info.plist */,
+			);
+			path = StudentAdmissionSql;
+			sourceTree = "<group>";
+		};
+		821A2D2B269F0B3600888E4B /* Extras */ = {
+			isa = PBXGroup;
+			children = (
+				5222AC7E2695D41200E27C5A /* AppDelegate.swift */,
+				5222AC802695D41200E27C5A /* SceneDelegate.swift */,
+				5222AC9B269610E200E27C5A /* extension.swift */,
+			);
+			path = Extras;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5222AC7A2695D41200E27C5A /* StudentAdmissionSql */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5222AC8F2695D41E00E27C5A /* Build configuration list for PBXNativeTarget "StudentAdmissionSql" */;
+			buildPhases = (
+				5222AC772695D41200E27C5A /* Sources */,
+				5222AC782695D41200E27C5A /* Frameworks */,
+				5222AC792695D41200E27C5A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = StudentAdmissionSql;
+			productName = StudentAdmissionSql;
+			productReference = 5222AC7B2695D41200E27C5A /* StudentAdmissionSql.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5222AC732695D41200E27C5A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					5222AC7A2695D41200E27C5A = {
+						CreatedOnToolsVersion = 12.4;
+					};
+				};
+			};
+			buildConfigurationList = 5222AC762695D41200E27C5A /* Build configuration list for PBXProject "StudentAdmissionSql" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5222AC722695D41200E27C5A;
+			productRefGroup = 5222AC7C2695D41200E27C5A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5222AC7A2695D41200E27C5A /* StudentAdmissionSql */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5222AC792695D41200E27C5A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5222AC8B2695D41E00E27C5A /* LaunchScreen.storyboard in Resources */,
+				5222AC882695D41E00E27C5A /* Assets.xcassets in Resources */,
+				5222AC862695D41200E27C5A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5222AC772695D41200E27C5A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5222AC832695D41200E27C5A /* StudentListVC.swift in Sources */,
+				5222AC7F2695D41200E27C5A /* AppDelegate.swift in Sources */,
+				5222ACA8269642E900E27C5A /* SQLiteNoticeHandler.swift in Sources */,
+				5222ACA22696370700E27C5A /* AdminVC.swift in Sources */,
+				5222AC9F269636AA00E27C5A /* MainVC.swift in Sources */,
+				5222AC942695DD6700E27C5A /* SQLiteHandler.swift in Sources */,
+				5222AC9C269610E200E27C5A /* extension.swift in Sources */,
+				5222AC972695EFF500E27C5A /* Student.swift in Sources */,
+				5222AC812695D41200E27C5A /* SceneDelegate.swift in Sources */,
+				5222ACAE2696461F00E27C5A /* NoticeBoardVC.swift in Sources */,
+				5222ACA5269637A600E27C5A /* StudentVC.swift in Sources */,
+				5222ACAB269643FA00E27C5A /* Notice.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		5222AC842695D41200E27C5A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5222AC852695D41200E27C5A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5222AC892695D41E00E27C5A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5222AC8A2695D41E00E27C5A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5222AC8D2695D41E00E27C5A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5222AC8E2695D41E00E27C5A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5222AC902695D41E00E27C5A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = StudentAdmissionSql/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = pp.practice.StudentAdmissionSql;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5222AC912695D41E00E27C5A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = StudentAdmissionSql/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = pp.practice.StudentAdmissionSql;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5222AC762695D41200E27C5A /* Build configuration list for PBXProject "StudentAdmissionSql" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5222AC8D2695D41E00E27C5A /* Debug */,
+				5222AC8E2695D41E00E27C5A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5222AC8F2695D41E00E27C5A /* Build configuration list for PBXNativeTarget "StudentAdmissionSql" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5222AC902695D41E00E27C5A /* Debug */,
+				5222AC912695D41E00E27C5A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5222AC732695D41200E27C5A /* Project object */;
+}
